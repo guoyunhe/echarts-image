@@ -15,7 +15,7 @@ npm i echarts-image
 ## CLI
 
 ```bash
-echarts option.json chart.png --width 400 --height 300 --dpr 2
+echarts-image option.json chart.png --width 400 --height 300 --dpr 2
 ```
 
 ## API
