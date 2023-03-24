@@ -15,7 +15,7 @@ npm i node-echarts
 ## CLI
 
 ```bash
-echarts --input option.json --output chart.png --width 400 --height 300 --dpr 2
+echarts option.json chart.png --width 400 --height 300 --dpr 2
 ```
 
 ## API
@@ -23,9 +23,24 @@ echarts --input option.json --output chart.png --width 400 --height 300 --dpr 2
 ```js
 import { outputChartImage } from 'node-echarts';
 
-const option = {};
+// Check examples from echarts website https://echarts.apache.org/examples/
+const input = {
+  xAxis: {
+    type: 'category',
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+  },
+  yAxis: {
+    type: 'value',
+  },
+  series: [
+    {
+      data: [150, 230, 224, 218, 135, 147, 260],
+      type: 'line',
+    },
+  ],
+};
 
-outputChartImage('output.png', option, { width: 400, height: 300, dpr: 2 });
+outputChartImage(input, 'output.png', { width: 400, height: 300, dpr: 2 });
 ```
 
 ## Options
