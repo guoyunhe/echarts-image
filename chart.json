@@ -10,7 +10,8 @@
     {
       "name": "Access From",
       "type": "pie",
-      "radius": ["40%", "70%"],
+      "radius": ["50%", "80%"],
+      "center": ["50%", "55%"],
       "avoidLabelOverlap": false,
       "itemStyle": {
         "borderRadius": 10,
