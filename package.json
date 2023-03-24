@@ -6,13 +6,13 @@
     "node",
     "cli"
   ],
-  "homepage": "https://github.com/guoyunhe/echarts-to-image#readme",
+  "homepage": "https://github.com/guoyunhe/echarts-image#readme",
   "bugs": {
-    "url": "https://github.com/guoyunhe/echarts-to-image/issues"
+    "url": "https://github.com/guoyunhe/echarts-image/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guoyunhe/echarts-to-image.git"
+    "url": "git+https://github.com/guoyunhe/echarts-image.git"
   },
   "funding": "https://github.com/sponsors/guoyunhe",
   "author": {
