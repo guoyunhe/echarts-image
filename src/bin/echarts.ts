@@ -3,7 +3,7 @@
 import { Command } from 'commander';
 import { outputChartImage } from '..';
 
-const program = new Command('node-echarts');
+const program = new Command('echarts-image');
 
 program
   .argument('<input>', 'ECharts option JSON file path')

@@ -1,16 +1,29 @@
 {
-  "name": "node-echarts",
+  "name": "echarts-image",
   "version": "1.0.0",
   "description": "",
   "keywords": [
     "node",
     "cli"
   ],
+  "homepage": "https://github.com/guoyunhe/echarts-to-image#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/echarts-to-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/echarts-to-image.git"
+  },
+  "funding": "https://github.com/sponsors/guoyunhe",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "bin": {
-    "echarts": "dist/echarts.js"
+    "echarts-image": "dist/echarts-image.js"
   },
   "files": [
     "dist",

@@ -1,4 +1,4 @@
-# node-echarts
+# echarts-image
 
 ![Chart](chart.png)
 
@@ -9,7 +9,7 @@ Note: you must have internet access when using this tool, because it loads JS fr
 ## Install
 
 ```bash
-npm i node-echarts
+npm i echarts-image
 ```
 
 ## CLI
@@ -21,7 +21,7 @@ echarts option.json chart.png --width 400 --height 300 --dpr 2
 ## API
 
 ```js
-import { outputChartImage } from 'node-echarts';
+import { outputChartImage } from 'echarts-image';
 
 // Check examples from echarts website https://echarts.apache.org/examples/
 const option = {

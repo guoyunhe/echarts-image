@@ -1,7 +1,7 @@
 import captureWebsite from 'capture-website';
 import { readFile } from 'fs/promises';
 
-export interface Options {
+export interface OutputChartImageOptions {
   width?: number;
   height?: number;
   dpr?: number;
@@ -10,7 +10,7 @@ export interface Options {
 export async function outputChartImage(
   input: string | object,
   output: string,
-  { width = 400, height = 300, dpr = 1 }: Options
+  { width = 400, height = 300, dpr = 1 }: OutputChartImageOptions
 ) {
   let optionJson;
   if (typeof input === 'string') {
