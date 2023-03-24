@@ -24,7 +24,7 @@ echarts option.json chart.png --width 400 --height 300 --dpr 2
 import { outputChartImage } from 'node-echarts';
 
 // Check examples from echarts website https://echarts.apache.org/examples/
-const input = {
+const option = {
   xAxis: {
     type: 'category',
     data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
@@ -40,7 +40,7 @@ const input = {
   ],
 };
 
-outputChartImage(input, 'output.png', { width: 400, height: 300, dpr: 2 });
+outputChartImage(option, 'output.png', { width: 400, height: 300, dpr: 2 });
 ```
 
 ## Options
